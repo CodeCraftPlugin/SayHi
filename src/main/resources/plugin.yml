@@ -1,0 +1,14 @@
+name: SayHi
+version: '${project.version}'
+main: me.codecraft.sayhi.Main
+api-version: 1.19
+authors: [ CodeCraft ]
+description: Add a command when executed greets the player
+commands:
+  sayhi:
+    aliases:
+      - hi
+      - hello
+      - say
+    description: the main command
+    usage: /sayhi
